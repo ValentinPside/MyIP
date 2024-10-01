@@ -28,6 +28,7 @@ object NetworkModule {
     fun provideRetrofit(defaultClient: OkHttpClient): Retrofit = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .client(defaultClient)
+        .baseUrl("https://functions.yandexcloud.net/")
         .build()
 
     @Provides

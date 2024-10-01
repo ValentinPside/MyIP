@@ -7,8 +7,6 @@ import dagger.Provides
 
 @Module
 object RepositoryModule {
-
     @Provides
     fun provideRepository(impl: RepositoryImpl): Repository = impl
-
 }

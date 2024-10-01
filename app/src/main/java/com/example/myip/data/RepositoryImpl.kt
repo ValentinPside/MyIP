@@ -15,5 +15,4 @@ class RepositoryImpl @Inject constructor(private val api: NetworkServiceAPI) : R
             cardRemote.asIp()
         }
     }
-
 }

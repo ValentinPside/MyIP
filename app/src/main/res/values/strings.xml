@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyIP</string>
+    <string name="my_ip">Мой IP</string>
+    <string name="error_message">Не удалось уточнить ваш IP</string>
 </resources>
